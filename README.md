@@ -8,7 +8,7 @@ This portfolio showcases my technical skills, projects, educational background, 
 
 ## Live Portfolio
 
-[Visit My Portfolio](https://animesh1422.github.io/)
+[Visit My Portfolio](https://animesh1422.github.io/PersonalPortfolio)
 
 ##  About Me
 
