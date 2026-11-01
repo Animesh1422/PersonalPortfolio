@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Animesh Dubey | Business and Data Analyst</title>
+  <meta name="description" content="Animesh Dubey is a BCA graduate (2026) looking for Business Analyst and Data Analyst fresher roles. Advanced Excel, data cleaning and reporting.">
+  <meta name="theme-color" content="#0b7a85">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Animesh Dubey | Business and Data Analyst">
+  <meta property="og:description" content="BCA graduate (2026). Advanced Excel, data cleaning and reporting. Available to join immediately.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b7a85'/%3E%3Ctext x='32' y='43' font-family='Arial' font-size='30' font-weight='700' text-anchor='middle' fill='white'%3EAD%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>try{var t=localStorage.getItem("animesh-theme");document.documentElement.setAttribute("data-theme",(t?t==="dark":matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light")}catch(e){}</script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html">Animesh<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">What I Do</a>
+      <a href="projects.html">My Work</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" download>Resume ↓</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode" title="Switch theme">🌙</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="availability"><i></i>Available to join immediately · Delhi NCR</p>
+        <h1>Hi, I'm <span>Animesh Dubey</span></h1>
+        <h2>Aspiring <span class="typed" id="typedRole">Business Analyst</span><span class="caret" aria-hidden="true"></span></h2>
+        <p class="hero-description">BCA graduate with a commerce background. I clean and check data, and turn it into clear reports in Excel. I'm learning SQL and Power BI to go further.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="projects.html">View Work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="resume.pdf" download>Download Resume ↓</a>
+        </div>
+        <div class="quick-facts">
+          <div><strong>BCA 2026</strong><span>GGSIPU, Delhi</span></div>
+          <div><strong>Advanced Excel</strong><span>Power Query · Power Pivot</span></div>
+          <div><strong>Immediate</strong><span>joiner</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="sheet-card">
+          <div class="sheet-top"><i></i><i></i><i></i><span>orders.xlsx</span></div>
+          <div class="formula-bar"><b>fx</b>=XLOOKUP(A2, IDs, Dept, "Not found")</div>
+          <div class="sheet-grid">
+            <span class="h">Order ID</span><span class="h">Dept</span><span class="h">Check</span>
+            <span>ORD-001</span><span>Sales</span><span>OK</span>
+            <span>ORD-002</span><span>Finance</span><span>OK</span>
+            <span class="bad">ORD-003</span><span class="bad">Not found</span><span class="bad">Review</span>
+            <span>ORD-004</span><span>Sales</span><span>OK</span>
+          </div>
+        </div>
+        <div class="floating-chip chip-top">✓ Data checked</div>
+        <div class="floating-chip chip-bottom">▦ Pivot Tables</div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><p class="eyebrow">A little about me</p><h2>Curious about numbers. <span>Clear in reports.</span></h2></div>
+      <div class="about-panel">
+        <p>I'm a BCA graduate (2026) from Sirifort Institute of Management Studies, affiliated to GGSIPU in Delhi, and I come from a commerce background. I like working out what the numbers say about a business.</p>
+        <p>I use Advanced Excel to clean and check data and to summarise it into reports. I know basic SQL and I'm learning Power BI to take that further, and I'm looking for a Business Analyst or Data Analyst fresher role.</p>
+        <a class="text-link" href="projects.html">Explore my projects <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading heading-row"><div><p class="eyebrow">What I use</p><h2>Skills &amp; <span>tools</span></h2></div><button class="button button-secondary small-button" id="openSkillForm" type="button">＋ Add Skill</button></div>
+      <form class="skill-form panel" id="skillForm" hidden>
+        <label for="skillName">Skill name</label><input id="skillName" name="skillName" placeholder="e.g. Tableau" maxlength="35" required>
+        <label for="skillCategory">Category</label>
+        <select id="skillCategory" name="skillCategory"><option>Excel</option><option>Data</option><option>Programming</option><option>Tools</option><option>Other</option></select>
+        <div class="form-actions"><button class="button button-primary" type="submit">Save Skill</button><button class="button button-secondary" type="button" id="cancelSkillForm">Cancel</button></div>
+        <p class="form-note">Skills you add are saved in this browser on this device only.</p>
+      </form>
+      <div class="skills-grid" id="skillsGrid">
+        <div class="skill-card"><span class="skill-icon">XL</span><div><strong>Advanced Excel</strong><small>Lookups, SUMIFS, formulas</small></div></div>
+        <div class="skill-card"><span class="skill-icon">PQ</span><div><strong>Power Query &amp; Power Pivot</strong><small>Excel</small></div></div>
+        <div class="skill-card"><span class="skill-icon">▦</span><div><strong>Pivot Tables</strong><small>With slicers</small></div></div>
+        <div class="skill-card"><span class="skill-icon">✓</span><div><strong>Data Validation</strong><small>Excel · quality checks</small></div></div>
+        <div class="skill-card"><span class="skill-icon">▮</span><div><strong>Charts &amp; dashboards</strong><small>Excel · slicers</small></div></div>
+        <div class="skill-card"><span class="skill-icon">SQL</span><div><strong>SQL</strong><small>SELECT, WHERE, GROUP BY, ORDER BY, LIMIT</small></div></div>
+        <div class="skill-card"><span class="skill-icon">BI</span><div><strong>Power BI</strong><small>Learning</small></div></div>
+        <div class="skill-card"><span class="skill-icon">Py</span><div><strong>Python</strong><small>Basic</small></div></div>
+        <div class="skill-card"><span class="skill-icon">PP</span><div><strong>PowerPoint</strong><small>Presenting findings</small></div></div>
+        <div class="skill-card"><span class="skill-icon">AI</span><div><strong>AI tools</strong><small>Claude, ChatGPT</small></div></div>
+        <div class="skill-card"><span class="skill-icon">⚛</span><div><strong>React &amp; Tailwind CSS</strong><small>Team project frontend</small></div></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="services">
+      <div class="section-heading"><p class="eyebrow">How I can help</p><h2>What I can do <span>for your team</span></h2></div>
+      <div class="service-grid">
+        <article class="service"><h3>Clean and check data</h3><p>Match records with lookups, catch mismatches and run validation checks so the numbers can be trusted.</p></article>
+        <article class="service"><h3>Excel reports and dashboards</h3><p>Pivot Tables, charts and dashboards that summarise data clearly, using Power Query and Power Pivot when the data is large.</p></article>
+        <article class="service"><h3>Share the findings</h3><p>Short written summaries and PowerPoint slides, so a team can understand the numbers and act on them.</p></article>
+      </div>
+      <p class="service-cta">Hiring for an analyst intern or fresher role? <a class="text-link" href="#contact">Send me a message</a></p>
+    </section>
+
+    <section class="section-wrap section-block" id="process">
+      <div class="section-heading"><p class="eyebrow">My approach</p><h2>How I <span>work</span></h2></div>
+      <div class="steps">
+        <article class="service"><b class="step-no">01</b><h3>Understand</h3><p>Start with the business question the data has to answer.</p></article>
+        <article class="service"><b class="step-no">02</b><h3>Clean and check</h3><p>Fix the data and test it for mismatches and errors.</p></article>
+        <article class="service"><b class="step-no">03</b><h3>Analyse</h3><p>Summarise with formulas, Pivot Tables and charts.</p></article>
+        <article class="service"><b class="step-no">04</b><h3>Share</h3><p>Present the result in a short, clear report.</p></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="featured">
+      <div class="section-heading heading-row"><div><p class="eyebrow">Selected work</p><h2>Data into <span>projects</span></h2></div><a class="text-link" href="projects.html">View all projects <span>→</span></a></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <a class="project-visual v-sheet" href="projects.html#excel-analysis" aria-label="View Excel Analysis Exercise"><span class="visual-label">Excel · Self practice</span><div class="mock-sheet"><div class="ms-bar"></div><div class="ms-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i class="bad"></i><i class="bad"></i><i class="bad"></i><i></i><i></i><i></i></div></div></a>
+          <div class="project-info"><p class="project-type">Excel · Data checking</p><h3>Excel Analysis Exercise</h3><p>Matched departments to 40 orders with XLOOKUP, flagged unmatched IDs as "Not found" and totalled sales by department.</p><a class="text-link" href="projects.html#excel-analysis">View details ↗</a></div>
+        </article>
+        <article class="project-card">
+          <a class="project-visual v-app" href="projects.html#shopsphere" aria-label="View ShopSphere project"><span class="visual-label">Team project</span><div class="mock-app"><div class="mock-sidebar"></div><div class="mock-content"><b>ShopSphere</b><span></span><span></span><i></i></div></div></a>
+          <div class="project-info"><p class="project-type">Team project · MERN stack</p><h3>ShopSphere</h3><p>An e-commerce web application built by a college team. I handled the frontend in React and Tailwind CSS.</p><a class="text-link" href="projects.html#shopsphere">View details ↗</a></div>
+        </article>
+        <article class="project-card">
+          <a class="project-visual v-dash" href="projects.html#sales-dashboard" aria-label="View Sales Analysis Dashboard"><span class="visual-label">Excel · Self practice</span><div class="mock-dash"><div class="dt"></div><div class="dr"><i></i><i></i><i></i></div><div class="dc"></div></div></a>
+          <div class="project-info"><p class="project-type">Excel · Dashboard</p><h3>Sales Analysis Dashboard</h3><p>An Excel dashboard with KPI cards, five charts and Region and Category slicers, built from Pivot Tables on a sample sales dataset.</p><a class="text-link" href="projects.html#sales-dashboard">View details ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="education">
+      <div class="section-heading"><p class="eyebrow">Background</p><h2>Education &amp; <span>certifications</span></h2></div>
+      <div class="achievement-list">
+        <article class="achievement"><span class="achievement-mark">🎓</span><div><h3>Bachelor of Computer Applications (BCA)</h3><p>2023 to 2026 · Sirifort Institute of Management Studies, affiliated to GGSIPU, Delhi · CGPA 7.11</p></div><span class="achievement-tag">Education</span></article>
+        <article class="achievement"><span class="achievement-mark">✦</span><div><h3>Cloud Computing Fundamentals</h3><p>IBM SkillsBuild</p></div><span class="achievement-tag">Certification</span></article>
+        <article class="achievement"><span class="achievement-mark">✦</span><div><h3>Introduction to Cybersecurity</h3><p>Cisco Networking Academy</p></div><span class="achievement-tag">Certification</span></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-grid">
+      <div>
+        <p class="eyebrow">Let's connect</p>
+        <h2>Looking for an analyst? <span>Let's talk.</span></h2>
+        <p>I'm looking for a Business Analyst or Data Analyst fresher role or internship. Send a message and I'll reply by email.</p>
+        <p><a class="text-link" href="mailto:animesh3736@gmail.com">animesh3736@gmail.com</a> · <a class="text-link" href="tel:+918178906154">+91 81789 06154</a></p>
+        <div class="social-row"><button class="button button-primary" type="button" id="copyEmail">Copy email</button><a class="button button-secondary" href="https://www.linkedin.com/in/animesh-kr-dubey" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a class="button button-secondary" href="https://github.com/Animesh1422" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+      </div>
+      <form class="contact-form panel" id="contactForm" novalidate>
+        <label for="contactName">Name</label><input id="contactName" autocomplete="name" required>
+        <label for="contactEmail">Your email</label><input id="contactEmail" type="email" autocomplete="email" required>
+        <label for="contactMessage">Message</label><textarea id="contactMessage" rows="4" required></textarea>
+        <p class="form-error" id="contactError" role="alert"></p>
+        <button class="button button-primary" type="submit">Send message</button>
+        <p class="form-note">This opens your email app with the message ready to send.</p>
+      </form>
+    </div></section>
+  </main>
+
+  <dialog class="case-modal" id="caseModal" aria-labelledby="caseTitle">
+    <button class="modal-close" id="closeCaseModal" aria-label="Close project details">×</button>
+    <div class="modal-visual" id="caseVisual"></div>
+    <div class="modal-content">
+      <p class="eyebrow" id="caseCategory">Project case study</p>
+      <h2 id="caseTitle">Project details</h2>
+      <p id="caseSummary"></p>
+      <div class="case-columns">
+        <section><h3>Problem</h3><p id="caseProblem"></p></section>
+        <section><h3>Solution</h3><p id="caseSolution"></p></section>
+        <section><h3>Tools</h3><div class="tag-row" id="caseTech"></div></section>
+        <section><h3>My contribution</h3><p id="caseContribution"></p></section>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer"><a class="logo" href="index.html">Animesh<span>.</span></a><p>Designed and built in plain HTML, CSS and JavaScript.</p><span>© <span id="currentYear">2026</span> Animesh Dubey</span></footer>
+  <button class="back-top" id="backTop" aria-label="Back to top" hidden>↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

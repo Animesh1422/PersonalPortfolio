@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>My Work | Animesh Dubey</title>
+  <meta name="description" content="Projects by Animesh Dubey: an Excel data-checking exercise, the ShopSphere e-commerce team project and an Excel sales dashboard.">
+  <meta name="theme-color" content="#0b7a85">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="My Work | Animesh Dubey">
+  <meta property="og:description" content="Excel analysis, a sales dashboard and ShopSphere (MERN team project).">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b7a85'/%3E%3Ctext x='32' y='43' font-family='Arial' font-size='30' font-weight='700' text-anchor='middle' fill='white'%3EAD%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>try{var t=localStorage.getItem("animesh-theme");document.documentElement.setAttribute("data-theme",(t?t==="dark":matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light")}catch(e){}</script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html">Animesh<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#services">What I Do</a>
+      <a class="active" href="projects.html">My Work</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="resume.pdf" download>Resume ↓</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode" title="Switch theme">🌙</button>
+    </nav>
+  </header>
+
+  <main class="section-wrap projects-page" id="main">
+    <div class="page-intro"><a class="back-link" href="index.html">← Back to Home</a><p class="eyebrow">Project archive</p><h1>Things I've <span>built &amp; practised.</span></h1><p>Projects with what I did in each.</p></div>
+    <div class="project-grid project-grid-page">
+      <article class="project-card project-card-large" id="excel-analysis">
+        <div class="project-visual v-sheet"><span class="visual-label">Excel · Self practice</span><div class="mock-sheet"><div class="ms-bar"></div><div class="ms-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i class="bad"></i><i class="bad"></i><i class="bad"></i><i></i><i></i><i></i></div></div></div>
+        <div class="project-info"><p class="project-type">Excel · Data checking</p><h2>Excel Analysis Exercise</h2><p>A self-practice exercise on 40 orders. I used XLOOKUP to map each order to a department, showing "Not found" for IDs that did not match so mismatches were easy to spot, then used SUMIF and COUNTIF to total sales by department and count the unmatched orders.</p><div class="tag-row"><span>Self practice</span><span>XLOOKUP</span><span>SUMIF</span><span>COUNTIF</span></div><div class="project-links"><button class="button button-primary case-trigger" type="button" data-project="excel">View Case Study ↗</button></div></div>
+      </article>
+      <article class="project-card project-card-large" id="shopsphere">
+        <div class="project-visual v-app"><span class="visual-label">Team project</span><div class="mock-app"><div class="mock-sidebar"></div><div class="mock-content"><b>ShopSphere</b><span></span><span></span><i></i></div></div></div>
+        <div class="project-info"><p class="project-type">E-commerce · MERN stack</p><h2>ShopSphere</h2><p>An e-commerce web application built by a college team on the MERN stack (Aug 2025 – Nov 2025). I handled the frontend role: product listing, category filtering and a multi-step checkout flow in React and Tailwind CSS, plus the cart using Context API and a reducer.</p><div class="tag-row"><span>Team project</span><span>React</span><span>Tailwind CSS</span><span>Context API</span></div><div class="project-links"><button class="button button-primary case-trigger" type="button" data-project="shopsphere">View Case Study ↗</button></div></div>
+      </article>
+      <article class="project-card project-card-large" id="sales-dashboard">
+        <div class="project-visual v-dash"><span class="visual-label">Excel · Self practice</span><div class="mock-dash"><div class="dt"></div><div class="dr"><i></i><i></i><i></i></div><div class="dc"></div></div></div>
+        <div class="project-info"><p class="project-type">Excel · Dashboard</p><h2>Sales Analysis Dashboard</h2><p>An interactive Excel dashboard on a 25-order sample sales dataset (Jan to Mar 2026). It has KPI cards, five charts and Region and Category slicers, all driven by Pivot Tables.</p><div class="tag-row"><span>Self practice</span><span>Pivot Tables</span><span>Charts</span><span>Slicers</span></div><div class="project-links"><button class="button button-primary case-trigger" type="button" data-project="sales">View Case Study ↗</button></div></div>
+      </article>
+    </div>
+  </main>
+
+  <dialog class="case-modal" id="caseModal" aria-labelledby="caseTitle">
+    <button class="modal-close" id="closeCaseModal" aria-label="Close project details">×</button>
+    <div class="modal-visual" id="caseVisual"></div>
+    <div class="modal-content">
+      <p class="eyebrow" id="caseCategory">Project case study</p>
+      <h2 id="caseTitle">Project details</h2>
+      <p id="caseSummary"></p>
+      <div class="case-columns">
+        <section><h3>Problem</h3><p id="caseProblem"></p></section>
+        <section><h3>Solution</h3><p id="caseSolution"></p></section>
+        <section><h3>Tools</h3><div class="tag-row" id="caseTech"></div></section>
+        <section><h3>My contribution</h3><p id="caseContribution"></p></section>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer"><a class="logo" href="index.html">Animesh<span>.</span></a><p>Designed and built in plain HTML, CSS and JavaScript.</p><span>© <span id="currentYear">2026</span> Animesh Dubey</span></footer>
+  <button class="back-top" id="backTop" aria-label="Back to top" hidden>↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
