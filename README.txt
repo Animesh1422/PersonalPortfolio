@@ -1,23 +1,85 @@
-ANIMESH DUBEY - PERSONAL PORTFOLIO WEBSITE
+# Animesh Dubey | Personal Portfolio
 
-Plain HTML, CSS and JavaScript. No frameworks, no build step.
+Welcome to my personal portfolio! 
 
-FILES
-- index.html     Home: hero, about, skills, what I do, approach, featured work, education, contact
-- projects.html  All projects with case-study popups
-- style.css      Layout, light and dark theme, responsive rules
-- script.js      Theme toggle, mobile menu, Add Skill (saved in the browser), case-study popups,
-                 contact form, scroll highlight, back-to-top, typing effect
-- resume.pdf     Resume, linked from the hero and the menu
+I'm Animesh Dubey, a BCA graduate (2026) from GGSIPU, Delhi, aspiring to build a career in Business Analytics and Data Analytics.
 
-PUT IT ON GITHUB PAGES (animesh1422.github.io)
-1. Open the repository Animesh1422/animesh1422.github.io on github.com.
-2. Add file > Upload files. Drag in ALL files of this folder (index.html, projects.html,
-   style.css, script.js, resume.pdf). Same names replace the old ones.
-3. Commit changes. Wait 1-2 minutes, then open https://animesh1422.github.io and hard refresh (Ctrl+Shift+R).
+This portfolio showcases my technical skills, projects, educational background, and professional interests.
 
-TO CHANGE CONTENT LATER
-- Text and skills: edit index.html.
-- Project details in the popups: edit the caseStudies list at the top of the projects part of script.js.
-- Contact email: the EMAIL line at the top of script.js and the mailto links in index.html.
-- Resume: replace resume.pdf with a new file of the same name.
+## Live Portfolio
+
+[Visit My Portfolio](https://animesh1422.github.io/)
+
+##  About Me
+
+*  BCA Graduate (2026) – GGSIPU, Delhi
+*  Interested in Business Analytics and Data Analytics
+*  Skilled in Advanced Microsoft Excel
+*  Familiar with SQL and basic Python
+*  Learning Power BI
+*  Open to Business Analyst and Data Analyst opportunities
+
+##  Skills & Technologies
+
+* **Microsoft Excel:** Advanced Excel, XLOOKUP, VLOOKUP, INDEX-MATCH, SUMIFS, COUNTIFS
+* **Data Analysis:** Data Cleaning, Data Validation, Pivot Tables
+* **Excel Tools:** Power Query, Power Pivot, Charts & Dashboards
+* **Database:** SQL (Basic)
+* **Programming:** Python (Basic)
+* **Presentation:** Microsoft PowerPoint
+* **Web Technologies:** HTML, CSS, JavaScript, React, Tailwind CSS
+* **AI Tools:** ChatGPT, Claude
+
+##  Featured Projects
+
+### 1. Sales Analysis Dashboard
+
+* Created an interactive Excel dashboard using a sample sales dataset.
+* Developed KPI cards and five visual charts.
+* Implemented Region and Category slicers.
+* Used Pivot Tables for data analysis.
+
+**Tools:** Microsoft Excel, Pivot Tables, Charts, Slicers.
+
+### 2. Excel Analysis Exercise
+
+* Analysed a sample dataset containing 40 orders.
+* Used XLOOKUP to match orders with departments.
+* Identified unmatched records.
+* Used SUMIF and COUNTIF for summarising data.
+
+**Tools:** Microsoft Excel, XLOOKUP, SUMIF, COUNTIF.
+
+### 3. ShopSphere – E-commerce Website
+
+* Developed as a college team project using the MERN stack.
+* Contributed to frontend development.
+* Worked on product listings and user interface.
+
+**Tools:** React, Tailwind CSS.
+
+##  Education
+
+**Bachelor of Computer Applications (BCA)**
+
+Sirifort Institute of Management Studies
+Affiliated with Guru Gobind Singh Indraprastha University (GGSIPU), Delhi.
+
+2023 – 2026 | CGPA: 7.11/10
+
+##  Certifications
+
+* IBM SkillsBuild – Cloud Computing Fundamentals
+* Cisco Networking Academy – Introduction to Cybersecurity
+
+##  Connect With Me
+
+* **LinkedIn:** [Animesh Dubey](https://www.linkedin.com/in/animesh-kr-dubey)
+* **GitHub:** [Animesh1422](https://github.com/Animesh1422)
+* **Email:** [animesh3736@gmail.com](mailto:animesh3736@gmail.com)
+
+---
+
+ Thank you for visiting my portfolio!
+
+*Designed and developed using HTML, CSS and JavaScript.*
